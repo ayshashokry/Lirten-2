@@ -1,0 +1,567 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.design .header h1 {
+  font-size: 7vw;
+}
+
+@media (max-width: 500px) {
+  .design .header h1 {
+    font-size: 15vw;
+  }
+}
+
+.our-intricate {
+  /* background-image: url('../images/aboutBg2.png'); */
+  background: linear-gradient(245.22deg, #060067 49.38%, #e5658d 100%);
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.our-intricate p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.intricateContainer {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.our-intricate h4 {
+  font-size: 50px;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+}
+
+.p2 {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  padding-top: 20px;
+}
+
+.offeringImg {
+  width: 60vw;
+  height: 180px;
+  position: absolute;
+  right: 190px;
+  bottom: -80px;
+}
+
+.designcircle {
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  right: 190px;
+  top: -150px;
+}
+
+@media (max-width: 768px) {
+  .intricateContainer {
+    margin-top: 20px !important;
+    text-align: left;
+  }
+
+  .our-intricate h4 {
+    margin-top: 0px !important;
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .p2 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    padding-top: 20px;
+  }
+
+  .offeringImg {
+    width: 75vw;
+    height: 62px;
+    position: absolute;
+    right: 100px;
+    bottom: -20px;
+    left: 30px;
+  }
+}
+
+.offer-section {
+  background-color: #fff;
+  padding-top: 210px;
+  padding-bottom: 70px;
+}
+
+.offer-section h4 {
+  font-size: 50px;
+  /* margin-top: 130px; */
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 0px;
+  align-items: center;
+  font-style: normal;
+}
+
+.p3 {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  padding-top: 0px;
+  color: #000000;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .offer-section {
+    /* margin-top: 50px !important; */
+    padding-top: 80px !important;
+    text-align: left;
+  }
+
+  .offer-section h4 {
+    margin-top: 0px !important;
+    font-size: 29px;
+    line-height: 25px;
+  }
+
+  .p3 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+}
+
+/**************************************************************/
+.branding {
+  background: linear-gradient(
+    256.88deg,
+    #380040 22.79%,
+    #fc6d6c 99.98%,
+    #e5658d 99.99%,
+    #ff6f6d 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0px !important;
+  color: white;
+  text-align: justify;
+}
+
+.branding h4 {
+  font-size: 50px;
+  /* margin-top: 130px; */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+  margin-bottom: 45px;
+}
+
+.branding h4::before {
+  content: url('../images/box2.png');
+  position: absolute;
+  right: 200px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.brandspan {
+  margin-bottom: 45px !important;
+}
+
+.branding span {
+  font-size: 20px;
+  /* margin-top: 130px; */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+}
+
+.brandingCon {
+  margin-top: 50px;
+}
+
+/* .brandingDev {
+  text-align: justify;
+} */
+.p4 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .p4 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 767px) {
+  .branding h4 {
+    font-size: 35px !important;
+    /* margin-top: 130px; */
+  }
+
+  .branding span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 764px) and (min-width: 300px) {
+  .branding h4 {
+    font-size: 32px !important;
+    line-height: 27px;
+    /* margin-top: 130px; */
+  }
+
+  .branding span {
+    font-size: 15px;
+  }
+}
+
+/***************************************************************************************/
+.businessCon {
+  position: relative;
+  z-index: 999;
+  background: linear-gradient(
+    257.66deg,
+    #060067 30.33%,
+    #fc6d6c 99.99%,
+    #e5658d 99.99%,
+    #ff6f6d 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: justify;
+}
+
+.businessCon h4 {
+  font-size: 50px;
+  /* margin-top: 130px; */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+}
+
+.businesstxt {
+  margin-top: 70px;
+  padding-left: 90px;
+  margin-bottom: 40px;
+}
+
+.businesstxt::before {
+  content: url('../images/about-line.png');
+  position: absolute;
+  right: 200px;
+  bottom: 60px;
+  width: 20px;
+  height: 20px;
+}
+
+.businessCon span {
+  font-size: 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+}
+
+/* .bussinessimg {
+  background: #060067;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.businessContainer {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 767px) {
+  .businessCon h4 {
+    font-size: 35px !important;
+    /* margin-top: 130px; */
+  }
+
+  .businesstxt {
+    margin-top: 20px;
+    padding-left: 40px;
+  }
+
+  .businesstxt p {
+    font-size: 20px !important;
+  }
+
+  .businessCon span {
+    font-size: 20px;
+  }
+
+  .businessContainer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 764px) and (min-width: 300px) {
+  .businessCon h4 {
+    font-size: 32px !important;
+    /* margin-top: 130px; */
+    line-height: 27px;
+  }
+
+  .businesstxt {
+    margin-top: 0px;
+    padding-left: 10px;
+  }
+
+  .businesstxt p {
+    font-size: 20px !important;
+    padding-top: 20px;
+  }
+
+  .businessCon span {
+    font-size: 15px;
+  }
+
+  .businessContainer {
+    margin-top: 0px;
+  }
+}
+
+/******************************************************************************************/
+.UX {
+  background: linear-gradient(256.88deg, #e5658d 22.79%, #380040 94.44%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0px !important;
+  color: white;
+  text-align: justify;
+}
+
+.UX h4 {
+  font-size: 50px;
+  /* margin-top: 130px; */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+  margin-bottom: 45px;
+}
+
+.UX h4::before {
+  content: url('../images/box2.png');
+  position: absolute;
+  right: 200px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.UX span {
+  font-size: 20px;
+  /* margin-top: 130px; */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-variant: small-caps;
+  line-height: 45px;
+  /* font-kerning: auto; */
+  letter-spacing: 2px;
+  align-items: center;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 767px) {
+  .UX h4 {
+    font-size: 35px !important;
+    /* margin-top: 130px; */
+  }
+
+  .UX span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 764px) and (min-width: 300px) {
+  .UX h4 {
+    font-size: 32px !important;
+    /* margin-top: 130px; */
+    line-height: 27px;
+  }
+
+  .UX span {
+    font-size: 15px;
+  }
+}
+
+.processCon {
+  background-image: url('../images/designBg5.png');
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 150px;
+}
+
+@media (max-width: 500px) {
+  .processCon {
+    margin-top: 50px;
+  }
+}
+
+.processCon h6 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.processCon p {
+  color: #fff;
+  font-weight: 500;
+  line-height: 23px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.eachsolution {
+  margin-bottom: 45px;
+}
+
+.processImg {
+  /* width: 900px;
+  height: 180px; */
+  width: 52vw;
+  height: 180px;
+  position: absolute;
+  right: 230px;
+  top: -120px;
+}
+
+@media (max-width: 768px) {
+  .processImg {
+    width: 70vw;
+    height: 62px;
+    position: absolute;
+    right: 100px;
+    top: -40px;
+    left: 30px;
+  }
+}
+
+.design-hr {
+  background: #fff !important;
+  width: 70px !important;
+  height: 3px !important;
+  margin-left: 0px !important;
+}
+
+.brandsection-img img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.codepurple1 {
+  color: #cb5790 !important;
+}
+
+.designblue2 {
+  color: #060067;
+}
+
+@media (max-width: 500px) {
+  .our-intricate {
+    height: 65vh;
+  }
+
+  .our-intricate p {
+    padding-bottom: 25px;
+  }
+}
+
+.designline2 {
+  position: absolute;
+  top: 136px;
+  right: 50px;
+  width: 80px;
+  height: 60px;
+  background-image: url('../images/stickydesign.png');
+}
+
+.designline3 {
+  position: absolute;
+  top: 205px;
+  right: 50px;
+  width: 80px;
+  height: 60px;
+  background-image: url('../images/stickydesign.png');
+}
+
+@media (max-width: 990px) {
+  .soraCaption {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 320px) {
+  .our-intricate {
+    height: 85vh;
+  }
+}
+
+/* .rev {
+  flex-flow: row-reverse;
+} */

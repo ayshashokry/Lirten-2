@@ -1,0 +1,43 @@
+.navb {
+  width: 80%;
+  margin: auto;
+  /* background-color: transparent !important; */
+  /* border-bottom: white 1px solid; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1000000;
+  transition: all 0.2s !important;
+}
+.navb a {
+  color: white;
+  padding: 10px;
+}
+
+.showw {
+  /* padding-right: 12% !important;
+    padding-left: 12% !important ; */
+
+  width: 80%;
+  background-color: black !important;
+}
+.hidden {
+  background-color: transparent !important;
+}
+
+@media (max-width: 500px) {
+  .navb a {
+    padding: 10px 0px;
+  }
+}
+
+.joinUs {
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .joinUs {
+    margin-left: 0px;
+  }
+}
